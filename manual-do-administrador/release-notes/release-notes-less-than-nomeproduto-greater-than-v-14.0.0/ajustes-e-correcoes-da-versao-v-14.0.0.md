@@ -1,0 +1,11 @@
+# Ajustes e Correções da Versão - V 14.0.0
+
+Nesta versão, foram realizadas correções listadas abaixo
+
+**Configuração de Aplicativos - Flag "Exibir no Quiosque":** Foi ajustado o comportamento da opção "Exibir no Quiosque", quando um dispositivo era registrado em uma política com Modo Quiosque ativo ao instalar um aplicativo manualmente com tipo de instalação Forçada, foi observado que a opção "Exibir no Quiosque" não atualizava corretamente. O aplicativo não estava sendo exibido ao ativar a flag "Exibir no Quiosque" e só aparecia quando a flag era desativada. Para resolver o problema, esse comportamento foi ajustado para garantir que o aplicativo seja exibido no dispositivo conforme a configuração desejada.
+
+**Comportamento Incorreto ao Excluir Empresa:** Ao acessar o portal e excluir uma empresa pelo menu Empresa → Informações da Empresa, o sistema enviava o comando WIPE corretamente para os dispositivos registrados, mas não notificava o usuário sobre a ação realizada. Além disso, após nova entrada no portal, o sistema recuperava indevidamente as informações da empresa, contrariando a exclusão solicitada. Para solucionar esse problema, foi implementado um ajuste que exibe uma notificação de confirmação ao usuário e, ao confirmar, o direciona para fora do portal, impedindo o resgate de dados da empresa excluída.
+
+**Exclusão de Rede Wi-Fi Configurada em QR Code:** No portal, ao criar uma política de QR Code Wi-Fi e associar uma rede Wi-Fi cadastrada previamente, a exclusão dessa rede resultava na remoção do QR Code da política. Para resolver essa questão, a configuração foi ajustada para garantir que tanto o QR Code quanto o token de registro permaneçam acessíveis, mesmo que anteriormente estivesse vinculado a uma rede Wi-Fi excluída.
+
+**Configurações Gerenciadas de Aplicativos Não São Salvas:** No menu Configurações > Gerenciar Políticas, ao ativar opções em aplicativos específicos, foi identificado que as configurações gerenciadas não eram salvas corretamente. Para solucionar esse problema, o sistema foi ajustado para garantir que as opções ativadas permaneçam ativas após a atualização da política, assegurando que o comportamento desejado seja refletido no dispositivo.
