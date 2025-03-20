@@ -90,6 +90,7 @@
 * [RELEASE NOTES](manual-do-administrador/release-notes/README.md)
   * [TESTE AUTOMAÇÃO RELEASE NOTES](manual-do-administrador/release-notes/teste-automacao-release-notes/README.md)
     * [teste automação 123](manual-do-administrador/release-notes/teste-automacao-release-notes/teste-automacao-123.md)
+    * [teste automação 4321](manual-do-administrador/release-notes/teste-automacao-release-notes/teste-automacao-4321.md)
   * [Hotfix V 18.0.0 Modo Quiosque](manual-do-administrador/release-notes/hotfix-v-18.0.0-modo-quiosque.md)
   * [Release Notes \<NomeProduto> V 19.0.0](manual-do-administrador/release-notes/release-notes-less-than-nomeproduto-greater-than-v-19.0.0/README.md)
     * [Configurações Avançadas no Security Browser](manual-do-administrador/release-notes/release-notes-less-than-nomeproduto-greater-than-v-19.0.0/configuracoes-avancadas-no-security-browser.md)
