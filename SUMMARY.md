@@ -88,6 +88,7 @@
     * [Perguntas Frequentes](manual-do-administrador/portal/ajuda/perguntas-frequentes.md)
     * [Documentos e Materiais de Apoio](manual-do-administrador/portal/ajuda/documentos-e-materiais-de-apoio.md)
 * [RELEASE NOTES](manual-do-administrador/release-notes/README.md)
+  * [TESTE AUTOMAÇÃO RELEASE NOTES](manual-do-administrador/release-notes/teste-automacao-release-notes.md)
   * [Hotfix V 18.0.0 Modo Quiosque](manual-do-administrador/release-notes/hotfix-v-18.0.0-modo-quiosque.md)
   * [Release Notes \<NomeProduto> V 19.0.0](manual-do-administrador/release-notes/release-notes-less-than-nomeproduto-greater-than-v-19.0.0/README.md)
     * [Configurações Avançadas no Security Browser](manual-do-administrador/release-notes/release-notes-less-than-nomeproduto-greater-than-v-19.0.0/configuracoes-avancadas-no-security-browser.md)
